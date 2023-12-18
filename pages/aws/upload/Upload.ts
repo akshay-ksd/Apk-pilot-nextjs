@@ -6,8 +6,8 @@ const uploadFile = async (file) => {
     const REGION = "api-south-1";
 
     AWS.config.update({
-      accessKeyId: "AKIA253RMDAAZY56Y7XU",
-      secretAccessKey: "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",
+      accessKeyId: "",
+      secretAccessKey: "",
     });
 
     const s3 = new AWS.S3({
